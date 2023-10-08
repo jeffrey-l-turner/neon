@@ -42,7 +42,7 @@ local function set_groups()
         FloatBorder = {fg = c.blue, bg = c.bg2},
         ColorColumn = {fg = c.none, bg = c.bg3}, --  used for the columns set with 'colorcolumn'
         Conceal = {fg = c.gray}, -- placeholder characters substituted for concealed text (see 'conceallevel')
-        Cursor = {fg = c.cyan, bg = c.none, style = "reverse"}, -- the character under the cursor
+        Cursor = {fg = c.cyan, bg = c.bg3, style = "reverse"}, -- the character under the cursor
         CursorIM = {fg = c.cyan, bg = c.none, style = "reverse"}, -- like Cursor, but used when in IME mode
         Directory = {fg = c.blue, bg = c.none, style = cfg.bold}, -- directory names (and other special names in listings)
         DiffAdd = {fg = c.diff_green, bg = c.none, style = "reverse"}, -- diff mode: Added line
